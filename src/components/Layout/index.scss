@@ -6,11 +6,11 @@
 }
 .tags {
     color: #dff538;
-    opacity: 0.6;
+    opacity: 0.8;
     position: absolute;
     bottom: 0;
     left: 120px;
-    font-size:32px;
+    font-size: 25px;
     font-family: 'La Belle Aurore', cursive;
 }
 .top-tags {
@@ -48,7 +48,7 @@
         left: 15%;
         top: 50%;
         transform: translateY(-50%);
-        border: 1px solid #dff538;
+        // border: 1px solid #dff538;
         width: 50%;
         vertical-align: middle;
         display: table-cell;
@@ -67,7 +67,7 @@
             content: '<h1>';
             font-family: 'La Belle Aurore', cursive;
             color: #ffd700;
-            font-size: 36px;
+            font-size: 30px;
             position: absolute;
             opacity: 0.8;
             line-height: 18px;
@@ -78,7 +78,7 @@
             content: '</h1>';
             font-family: 'La Belle Aurore', cursive;
             color: #ffd700;
-            font-size: 36px;
+            font-size: 30px;
             position: absolute;
             opacity: 0.8;
             line-height: 18px;

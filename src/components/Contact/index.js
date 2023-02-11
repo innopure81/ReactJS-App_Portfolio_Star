@@ -9,6 +9,8 @@ import { MapContainer,TileLayer,Marker,Popup } from 'react-leaflet';
 const Contact = ()=>{
     const [letterClass, setLetterClass] = useState('text-animate');
     const form = useRef();
+    let city = { center: { lat: 44.182205, lng: -84.506836 }, zoom: 6 };
+    const colorModeUrl = ['https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'];
 
     useEffect(()=>{
         setTimeout(()=>{setLetterClass('text-animate-hover')}, 3000)
@@ -16,9 +18,10 @@ const Contact = ()=>{
 
     const sendEmail = (e)=>{
         e.preventDefault();
-        emailjs.sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+        emailjs.sendForm('service_xbdh3cz', 'template_5k6r3tl', form.current, 'SUzbsgYNRevwMpBY-')
         .then(
-            ()=>{alert('Message sent!'); window.location.reload(false); }, ()=>{alert('Failed. Please retry.')})
+            ()=>{alert('Message sent!'); window.location.reload(false); }, ()=>{alert('Failed. Please retry.')}
+        )
     }
 
     return (
@@ -45,14 +48,14 @@ const Contact = ()=>{
                 </div>
                 
                 <div className="info-map">
-                    Ha Jeong<br />Michigan, U.S.A. <br />
-                    <span>hayeong.j@gmail.com</span>
+                    Ha Jeong, <br /> Michigan, U.S.A. <br />
+                    {/* <span>hayeong.j@gmail.com</span> */}
                 </div>
                 <div className="map-wrap">
-                    <MapContainer zoom={13} center={[44.96366, 19.61045]} >
-                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[44.96366, 19.61045]}>
-                            <Popup>My office is here.</Popup>
+                    <MapContainer center={city.center} zoom={city.zoom} style={{ height: 480, width: "97.5%" }} scrollWheelZoom={true} >
+                        <TileLayer url={colorModeUrl[0]} attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
+                        <Marker position={ [44.182205, -84.506836] }>
+                            <Popup>Hello, world!</Popup>
                         </Marker>
                     </MapContainer>
                 </div>
