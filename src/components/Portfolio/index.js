@@ -4,6 +4,7 @@ import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import { getDocs, collection } from 'firebase/firestore';
 import { db } from '../../firebase';
+import Star from '../../assets/images/star_white.png';
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -65,6 +66,7 @@ const Portfolio = () => {
                         strArray={"Portfolio".split("")}
                         idx={15}
                     />
+                    <img src={Star} alt="JS Web Deverloper" />
                 </h1>
                 <div>{renderPortfolio(portfolio)}</div>
             </div>
