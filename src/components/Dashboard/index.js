@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
-import Home from "./home";
+import Home from "./home.js";
 import Login from '../Login';
 
 const Dashboard = () => {
@@ -20,9 +20,9 @@ const Dashboard = () => {
 
 
     return (
-       <div>
-           {user ? <Home /> : <Login />}
-       </div>
+        <div>
+            {user ? <Home /> : <Login />}
+        </div>
     )
 }
 

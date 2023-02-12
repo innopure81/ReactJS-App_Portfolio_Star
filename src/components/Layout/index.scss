@@ -1,4 +1,12 @@
+.App {
+    //border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    
+}
+
 .page {
+    //border: 1px solid red;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -26,8 +34,8 @@
     margin-left: -20px;
 }
 
-
 .container {
+    //border: 1px solid red;
     width: 100%;
     will-change: contents;
     height: 90%;
@@ -140,13 +148,13 @@
         }
     }
 
-    .stage-cube-cont {
-        position: absolute;
-        left: 100px;
-        display: in-block;
-        width: 100%;
-        height: 0%;
-        overflow: visible;
-        border: 1px solid #dff538;
-    }
+    // .stage-cube-cont {
+    //     position: absolute;
+    //     left: 100px;
+    //     display: in-block;
+    //     width: 100%;
+    //     height: 0%;
+    //     overflow: visible;
+    //     border: 1px solid #dff538;
+    // }
 }

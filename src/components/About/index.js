@@ -22,8 +22,8 @@ const About = ()=>{
                         <img src={Star} alt="JS Web Deverloper" />
                         <AnimatedLetters letterClass={letterClass} strArray={[' ','m','e']} idx={23} />
                     </h1>
-                    <p>I'm a hard-working junior web developer looking for a role in an IT company with an opportunity to work with the latest technologies on diverse projects. </p>
-                    <p align="LEFT">I'm naturally curious and am an enthusiastic learner who loves spicy food and always care for being helpful for good people.</p>
+                    <p>I'm a hard-working junior developer looking for a role in an IT company with an opportunity to work with the latest technologies on diverse projects. </p>
+                    <p align="LEFT">I'm a naturally curious and enthusiastic learner who loves spicy food and always care for being helpful for good people.</p>
                 </div>
                 
                 <div className="stage-cube-cont">

@@ -34,9 +34,10 @@ img {
     height: 200px;
     margin-left: calc(45% - 100px);
     margin-top: -45%;
-    border: 1px solid #dff538;
+    // border: 1px solid #dff538;
     transform: rotate(-60deg);
-    
+
+    /*faces of cube*/
     div {
         position: relative;
         width: 275px;
@@ -50,8 +51,7 @@ img {
         align-items: center;
         box-shadow: 0 0 20px 0px lightyellow; 
     }
-
-    .front { top: 250px; transform: translateY(105px) translateZ(-142px); color:#dd0031; }
+    .front { top: 250px; transform: translateY(105px) translateZ(-140px); color:#dd0031; }
     .back { top: 78px; transform: translateZ(140px); color:#f06529; }
     .right { right: 138px; bottom: 198px; transform: rotateY(90deg); color:#28a4d9; }
     .left { left: 139px; bottom: 476px; transform: rotateY(90deg); color:#5ed4f4; }
