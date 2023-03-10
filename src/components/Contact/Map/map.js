@@ -15,6 +15,7 @@ const Map = ()=>{
         {geoCode: [48.85, 2.3522], popUp: "Hi!" }
     ];
 
+    
     return (
         <div>
             <MapContainer center={[48.8566, 2.3522]} zoom={5} >

@@ -4,7 +4,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import {useEffect,useState, useRef} from 'react';
 import Star from '../../assets/images/star_white.png';
 import emailjs from '@emailjs/browser';
-//import Map from './Map/map.js'
+import Map from './Map/map.js'
 
 const Contact = ()=>{
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -21,7 +21,7 @@ const Contact = ()=>{
             ()=>{alert('Message sent!'); window.location.reload(false); }, ()=>{alert('Failed. Please retry.')}
         )
     }
-
+    
     return (
         <>
             <div className="container contact-page">
@@ -46,7 +46,7 @@ const Contact = ()=>{
                 </div>
                 
                 <div className="map-wrap">
-                    {/* <Map /> */}
+                    <Map />
                 </div>
 
             </div>
