@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The goal of the project:
+The technology used:
+The challenges faced and solutions:
+Link to a video demo of my portfolio project: 
+(The video is a typical screen-share recording that includes my voice-over, lasts 5 minutes or less, and covers the above topics.)
+
 ## Available Scripts
 
 In the project directory, you can run:
