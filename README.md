@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## The goal of the project: a React Web Application integrated with a client-server architecture
 
 ## The technology used:
--Integrated Contact Form with EmailJS platform for receiving/relaying emails from the client-side
+-Integrated Contact Form with EmailJS platform for receiving/relaying emails from the client-side <br />
 -Implemented Firebase authorization using the Gmail account 
 -Enabled to upload data/image to the Firebase server 
 -Implemented a CSS animation for text animation effect
