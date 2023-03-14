@@ -2,8 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## The goal of the project: a React Web Application integrated with a client-server architecture
-
+## The goal of the project: 
+a React Web Application integrated with a client-server architecture <br />
 ## The technology used:
 -Integrated Contact Form with EmailJS platform for receiving/relaying emails from the client-side <br />
 -Implemented Firebase authorization using the Gmail account <br />
@@ -15,7 +15,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -Configuring signInWithGoogle using Firebase <br />
 -Configuring to send data from the client-side to the firebase storage <br />
 
-## Link to a video demo of my portfolio project: n/a
+## Link to a video demo of my portfolio project: 
+n/a <br />
 (The video is a typical screen-share recording that includes my voice-over, lasts 5 minutes or less, and covers the above topics.)
 
 
