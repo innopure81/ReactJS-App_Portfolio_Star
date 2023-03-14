@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## The goal of the project: 
-a React Web Application integrated with a client-server architecture <br />
+a React web application integrated with a client-server architecture <br />
 ## The technology used:
 -Integrated Contact Form with EmailJS platform for receiving/relaying emails from the client-side <br />
 -Implemented Firebase authorization using the Gmail account <br />
